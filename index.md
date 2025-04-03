@@ -15,13 +15,13 @@ Welcome to my personal knowledge repository documenting my journey through data 
   <div class="track">
     <h3>📊 Data Analysis</h3>
     <p>Exploring data to extract meaningful insights and visualize findings</p>
-    <a href="/data-analysis" class="button">Explore Track</a>
+    <a href="/Learning-journey-of-NDoubleD/data-analysis" class="button">Explore Track</a>
   </div>
   
   <div class="track">
     <h3>🔄 Data Engineering</h3>
     <p>Building robust pipelines to collect, transform, and store data</p>
-    <a href="/data-engineering" class="button">Explore Track</a>
+    <a href="/Learning-journey-of-NDoubleD/data-engineering" class="button">Explore Track</a>
   </div>
 </div>
 
