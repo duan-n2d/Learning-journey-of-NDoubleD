@@ -1,0 +1,66 @@
+# Site settings
+title: My Learning Journey
+description: A collection of notes and resources from my learning adventures
+author: Duan Nguyen
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol, e.g. http://example.com
+github_username: duan-n2d
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - data-analysis/index.md
+  - data-engineering/index.md
+
+# Collections
+collections:
+  topics:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+
+# Social
+social:
+  github: duan-n2d
+  linkedin: your-linkedin-username
+
+# Google Analytics
+google_analytics: # your google analytics id
+
+# Show excerpts on the home page
+show_excerpts: true
+
+# Set to true to enable syntax highlighting
+highlighter: rouge
